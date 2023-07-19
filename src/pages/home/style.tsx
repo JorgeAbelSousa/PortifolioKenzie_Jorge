@@ -1,9 +1,7 @@
-import { styled } from "@/styles/stitches.config";
-import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
-import { css } from "@stitches/react";
+import { Flex } from "@/styles/Global";
+import { styled } from "@/styles/stitches.config";
 
-import meIlustration from "@/public/static/img/background/me-ilustration.svg";
 import backgroundImg from "@/public/static/img/background/header-bg.svg";
 
 import dots from "@/public/static/img/background/dots.svg";
@@ -100,6 +98,17 @@ export const StackCards = styled("div", {
     paddingInline: "1rem",
   },
 });
+
+export const AboutMeArea = styled("section", {
+  padding: "$section 0",
+  backgroundColor: "$grey1",
+  backgroundRepeat: "no-repeat",
+  backdropPosition: "left top 11rem",
+  "@tablet": {
+    backgroundPosition: "right top 8rem",
+    padding: "$sectionMobile 0"
+  }
+})
 
 export const ProjectsArea = styled("section", {
   padding: "$section 0",

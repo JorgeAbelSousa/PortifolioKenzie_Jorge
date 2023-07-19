@@ -58,7 +58,7 @@ export const ContactCardImage = styled("div", {
   minWidth: "4.5rem",
   height: "4.5rem",
   marginRight: "$2",
-  borderRadius: "$1",
+  borderRadius: "$3",
   backgroundColor: "$grey0",
   display: "flex",
   alignItems: "center",

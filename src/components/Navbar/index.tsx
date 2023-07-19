@@ -63,14 +63,14 @@ export const NavLinks = (): JSX.Element => {
       <Button type="btLink" as="a" color="grey4" href={`#home`}>
         Home
       </Button>
+      <Button type="btLink" as="a" color="grey4" href={`#about`}>
+        Sobre mim
+      </Button>
       <Button type="btLink" as="a" color="grey4" href={`#projects`}>
-        Projects
+        Projetos
       </Button>
       <Button type="btLink" as="a" color="grey4" href={`#contact`}>
-        Contact
-      </Button>
-      <Button type="btLink" as="a" color="grey4" href={`#social-media`}>
-        Social Media
+        Contatos
       </Button>
     </NavbarLinks>
   );

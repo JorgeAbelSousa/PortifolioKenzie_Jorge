@@ -146,6 +146,7 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
     radii: {
       1: "0.5rem",
       2: "0.25rem",
+      3: "5rem",
     },
   });
 
